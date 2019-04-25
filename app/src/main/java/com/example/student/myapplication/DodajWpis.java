@@ -1,7 +1,13 @@
 package com.example.student.myapplication;
 
-/**
- * Created by Student on 25.04.19.
- */
-public class DodajWpis {
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class DodajWpis extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_dodaj_wpis);
+    }
 }
